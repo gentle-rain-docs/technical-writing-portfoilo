@@ -1,8 +1,8 @@
 # Site settings
 title: Kili Taylor
-description: Technical Writer | Documentation | API Guides | UX Writing
-url: "https://yourusername.github.io"
-baseurl: "" # leave empty unless this is a project site
+description: Welcome to my technical writing portfolio! 
+url: "https://gentle-rain-docs.github.io"
+baseurl: "/technical-writing-portfolio" # leave empty unless this is a project site
 
 # Author
 author:
@@ -11,6 +11,9 @@ author:
 
 # Theme
 remote_theme: patdryburgh/hitchens
+
+sass:
+  style: compressed
 
 # Build settings
 markdown: kramdown
@@ -28,7 +31,7 @@ permalink: /:title/
 # Navigation (top menu)
 nav:
   - title: Home
-    url: /
+    url: /home/
   - title: Writing Samples
     url: /writing-samples/
   - title: Resume
