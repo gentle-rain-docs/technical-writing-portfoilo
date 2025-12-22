@@ -1,23 +1,23 @@
-// Custom colors
+/* Custom colors */
 $color-indigo: #4B0082;
 $color-light-purple: #B19CD9;
 $color-grey: #6B7280;
 
-// Font stack - clean, accessible sans-serif
+/* Font stack - clean, accessible sans-serif */
 $font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
   Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
-// Import the Hitchens theme styles first
+/* Import the Hitchens theme styles first (if available to Jekyll) */
 @import "jekyll-theme-hitchens";
 
-// Override body font
+/* Override body font */
 body {
   font-family: $font-stack;
   color: $color-grey;
   background-color: #fff;
 }
 
-// Links
+/* Links */
 a {
   color: $color-indigo;
   text-decoration: none;
@@ -29,7 +29,7 @@ a {
   }
 }
 
-// Header styles
+/* Header styles */
 header.site-header {
   background-color: $color-indigo;
   color: white;
@@ -47,7 +47,7 @@ header.site-header {
   }
 }
 
-// Navigation links
+/* Navigation links */
 nav.site-nav a {
   color: $color-indigo;
   font-weight: 600;
@@ -58,13 +58,13 @@ nav.site-nav a {
   }
 }
 
-// Page titles
+/* Page titles */
 h1, h2, h3, h4, h5, h6 {
   color: $color-indigo;
   font-family: $font-stack;
 }
 
-// Footer (if any)
+/* Footer (if any) */
 footer.site-footer {
   background-color: $color-grey;
   color: white;
@@ -73,7 +73,7 @@ footer.site-footer {
   text-align: center;
 }
 
-// Buttons or call-to-action links (if used)
+/* Buttons or call-to-action links (if used) */
 .button, .btn {
   background-color: $color-indigo;
   color: white;

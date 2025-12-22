@@ -5,10 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/custom.scss" | relative_url }}">
+
+  <!-- Link the compiled CSS (Jekyll will process assets/css/style.scss -> assets/css/style.css) -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ "/feed.xml" | relative_url }}">
   <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" type="image/x-icon">
-  <link rel="stylesheet" href="{{ "/assets/css/custom.scss" | relative_url }}">
 </head>
 <body>
   <header class="site-header">
