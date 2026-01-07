@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Resume
+layout: default
+title: Home
 ---
 
 <div class="resume-header">
