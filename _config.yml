@@ -7,8 +7,8 @@ baseurl: "/technical-writing-portfolio"
 author:
   name: Kili Taylor
   email: kili.taylor@protonmail.com
-
-remote_theme: patdryburgh/hitchens
+  
+theme: minima
 
 sass:
   style: compressed
