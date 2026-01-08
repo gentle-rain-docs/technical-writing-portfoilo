@@ -1,12 +1,8 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Resume
+permalink: /resume/
 ---
-
-<div class="resume-header">
-  <h1>Kili Taylor</h1>
-  <p>Portland, Oregon · <a href="https://linkedin.com/in/kilitaylor">LinkedIn</a> · kili.taylor@protonmail.com</p>
-</div>
 
 # Kili Taylor
 
@@ -23,62 +19,56 @@ Aspiring technical writer and helpdesk technician with over five years of experi
 ---
 
 ## Professional Experience
-<div class="job-block">
-### Help Desk Technician
-</div>
+
+### Help Desk Technician  
 **Washington County** — Hillsboro, OR  
 *October 2023 – Present*
 
 - Provide frontline technology support for over 3,000 employees across 30+ departments using ServiceNow.
-- Resolved 2,583 incident tickets and closed 915 service catalog requests within one year, supporting sustained service reliability.
-- Troubleshoot hardware, software, application, and access issues with an emphasis on calm, respectful communication.
-- Author and maintain internal and user-facing knowledge base articles that reduce repeat issues and support self-service.
-- Assist users with individualized settings, including basic accessibility adjustments, to better meet diverse needs.
-- Regularly recognized for patience, clarity, and ability to de-escalate stressful technical situations.
+- Resolved 2,583 incident tickets and closed 915 service catalog requests within one year.
+- Troubleshoot hardware, software, application, and access issues with calm, respectful communication.
+- Author and maintain internal and user-facing knowledge base articles.
+- Assist users with accessibility adjustments and individualized settings.
+- Recognized for patience, clarity, and de-escalation skills.
 
 ---
-<div class="job-block">
+
 ### IT Technical Support Representative I  
-     </div>
 **Portland Public Schools** — Portland, OR  
 *January 2023 – October 2023*
 
-- Supported faculty and staff in a large K–12 educational environment via phone and remote support.
-- Managed 50+ tickets weekly in Freshservice while maintaining accurate, reusable documentation.
-- Explained technical processes and policies in plain language to improve understanding and prevent repeat issues.
-- Created user-facing documentation that improved technology confidence and reduced ticket volume district-wide.
+- Supported faculty and staff in a large K–12 environment via phone and remote support.
+- Managed 50+ tickets weekly in Freshservice with accurate documentation.
+- Explained technical processes in plain language to reduce repeat issues.
+- Created user-facing documentation that improved technology confidence.
 
 ---
-<div class="job-block">
+
 ### Service Desk Technician  
-</div>
 **Angi** — Remote  
 *May 2022 – November 2022*
 
-- Supported a fully remote workforce by troubleshooting enterprise applications and access issues.
-- Created knowledge base articles enabling users to resolve common problems independently.
-- Educated users on application best practices with an emphasis on clarity, inclusion, and security awareness.
+- Supported a fully remote workforce with enterprise application troubleshooting.
+- Created knowledge base articles enabling user self-service.
+- Educated users on best practices with clarity and security awareness.
 
 ---
-<div class="job-block">
-### Customer Support Technician, Senior Associate 
-</div>
+
+### Customer Support Technician, Senior Associate  
 **Insight Global (Cigna Contract)** — Remote  
 *September 2021 – May 2022*
 
-- Supported enterprise identity and access systems including Okta, RSA, Citrix, and multi-factor authentication tools.
-- Guided users step by step through complex technical issues, reducing escalations and repeat tickets.
+- Supported enterprise identity and access systems including Okta, RSA, Citrix, and MFA tools.
+- Guided users step-by-step through complex technical issues.
 
 ---
-<div class="job-block">
-### On-Call Library Technician
-</div>
+
+### On-Call Library Technician  
 **Portland Community College** — Southeast Campus  
 *December 2017 – March 2020*
 
-- Supported students and community members in locating, evaluating, and using information resources.
-- Assisted with research tools, digital systems, and library technologies in a welcoming learning environment.
-- Reinforced a strong commitment to education, access, and user-centered support.
+- Assisted students and community members with research tools and digital systems.
+- Supported library technologies in a welcoming learning environment.
 
 ---
 
