@@ -1,13 +1,15 @@
----
----
+/* =========================================================
+   Custom styles for Technical Writing Portfolio
+   Strong selectors for overriding Minima theme
+   ========================================================= */
 
 /* Color variables */
 :root {
   --lavender: #e6dbf5;
   --lavender-dark: #b19cd9;
-  --indigo: #4b0082;
   --mint: #e6f4ef;
   --mint-accent: #98ff98;
+  --indigo: #4b0082;
   --grey: #6b7280;
   --background: #f9fafb;
   --text: #1f2933;
@@ -22,25 +24,37 @@ body {
   line-height: 1.6;
 }
 
-/* Headings override Minima defaults */
-h1, h2, h3, h4, h5, h6 {
+/* Headings */
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+.page-content h1,
+.page-content h2,
+.page-content h3 {
   color: var(--indigo);
   line-height: 1.3;
 }
 
 /* Links */
-a {
+body a,
+.page-content a,
+.wrapper a {
   color: var(--indigo);
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
+body a:hover,
+body a:focus,
+.page-content a:hover,
+.page-content a:focus {
   color: var(--lavender-dark);
   text-decoration: underline;
 }
 
-/* Navigation (Minima-compatible) */
+/* Navigation bar (Minima-compatible) */
 .site-nav a {
   color: var(--indigo);
   font-weight: 600;
@@ -64,12 +78,14 @@ a:focus {
 }
 
 /* Footer */
-footer {
+footer,
+body footer {
   color: var(--grey);
   font-size: 0.9rem;
 }
 
-footer a {
+footer a,
+body footer a {
   color: var(--indigo);
 }
 
@@ -79,7 +95,8 @@ footer a:focus {
 }
 
 /* Embedded widgets (API demos) */
-.widget {
+.widget,
+.page-content .widget {
   border: 1px solid #e5e7eb;
   padding: 1rem;
   margin: 1.5rem 0;
@@ -93,13 +110,17 @@ footer a:focus {
 
 /* Code blocks */
 pre,
-code {
+code,
+.page-content pre,
+.page-content code {
   background-color: #f3f4f6;
   border-radius: 4px;
+  padding: 0.25rem 0.5rem;
 }
 
 /* Resume header */
-.resume-header {
+.resume-header,
+.page-content .resume-header {
   background-color: var(--lavender);
   text-align: center;
   padding: 1.5rem;
@@ -118,7 +139,8 @@ code {
 }
 
 /* Job experience blocks */
-.job-block {
+.job-block,
+.page-content .job-block {
   background-color: var(--mint);
   padding: 1.25rem;
   margin-bottom: 1.5rem;
