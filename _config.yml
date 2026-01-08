@@ -1,14 +1,9 @@
-title: Kili Taylor
-description: Welcome to my technical writing portfolio
+title: Technical Writing Portfolio
+description: A collection of my technical writing samples.
+theme: minima
 
-url: "https://gentle-rain-docs.github.io"
-baseurl: "/technical-writing-portfoilo"
-
-remote_theme: jekyll/minima
-
+# Optional but nice to have
 markdown: kramdown
-highlighter: rouge
-
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyl-seo-tag
