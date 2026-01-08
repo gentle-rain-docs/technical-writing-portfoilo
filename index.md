@@ -1,16 +1,31 @@
 ---
-layout: default
-title: Home
+layout: home
+title: Technical Writing Portfolio
 ---
 
-# Technical Writing Portfolio
+Welcome to my technical writing portfolio.
 
-Welcome to my technical writing portfolio. This site contains writing samples that demonstrate my approach to creating clear, user-focused documentation.
+Here you’ll find selected samples of my work, including:
 
-## About Me
+- API documentation
+- User guides
+- Process documentation
+- Other technical writing projects
 
-### Kili Taylor
+[View my projects](#projects)
 
-I am transitioning into technical writing after more than five years working in help desk and technical support roles. In those roles, I regularly documented procedures, resolved user issues, and translated technical information into clear, practical guidance.
+---
 
-This portfolio includes writing samples across several documentation types, including API walkthroughs, how-to guides, and troubleshooting articles. These samples reflect my learning process, my attention to clarity, and my focus on helping users complete tasks successfully.
+## Projects {#projects}
+
+### Project 1 – Example API Documentation
+
+**Summary:** Brief description of what this project demonstrates.
+
+[Read the documentation](api-demos/pokeapi-widget.html)
+
+### Project 2 – Example User Guide
+
+**Summary:** Brief description of the guide and audience.
+
+[Open the guide](guides/example-user-guide.html)
