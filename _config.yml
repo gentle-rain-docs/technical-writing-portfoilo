@@ -1,7 +1,15 @@
 title: Technical Writing Portfolio
 description: A collection of my technical writing samples.
-theme: minima
+
+remote_theme: chrisrhymes/bulma-clean-theme
+
+bulma:
+  primary: "#C8A2C8"   # lavender
+  link: "#98FFCC"      # mint
 
 markdown: kramdown
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo
