@@ -1,0 +1,31 @@
+/* ===============================
+   Accessibility & Personality
+   =============================== */
+
+a {
+  color: #d6c2ff; /* lavender */
+}
+
+a:hover {
+  color: #b9f2e5; /* mint */
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #e4d9ff;
+}
+
+/* Section separation */
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin: 2rem 0;
+}
+
+/* Projects emphasis */
+.projects {
+  background-color: rgba(230, 244, 239, 0.06);
+  padding: 1.25rem;
+  border-radius: 6px;
+}
