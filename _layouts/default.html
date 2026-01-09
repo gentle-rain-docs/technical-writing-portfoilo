@@ -7,7 +7,6 @@
 
     {% seo %}
 
-    <!-- Custom styles -->
     <style>
       {% include styles.css %}
     </style>
@@ -15,27 +14,22 @@
 
   <body>
 
-    <!-- Animated raindrop background -->
+    <!-- Raindrop background -->
     <div class="raindrop-layer">
       <div class="raindrop" style="left: 10%; animation-delay: 0s;"></div>
       <div class="raindrop" style="left: 50%; animation-delay: 4s;"></div>
       <div class="raindrop" style="left: 80%; animation-delay: 8s;"></div>
     </div>
 
-    <!-- Bulma Clean Theme header -->
     {% include header.html %}
 
-    <section class="section">
-      <div class="container content">
-        {{ content }}
-      </div>
-    </section>
+    <main role="main">
+      {{ content }}
+    </main>
 
-    <!-- Bulma Clean Theme footer -->
     {% include footer.html %}
 
-    <!-- AI Transparency Disclaimer -->
-    <footer class="footer has-text-centered">
+    <footer class="site-footer">
       <p>
         This portfolio includes work created independently and work developed with the assistance of AI tools.
         All content has been reviewed, edited, and verified by me to reflect my skills and voice.
